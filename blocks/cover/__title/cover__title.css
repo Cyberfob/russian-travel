@@ -4,11 +4,11 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    margin-top: 245px;
+    margin: 245px auto 0px;
     width: 560px;
     text-decoration: none;
     color: #FFFFFF;
-    grid-column: 2/3;
+    grid-column: 1/-1;
     z-index: 2;
     
 }

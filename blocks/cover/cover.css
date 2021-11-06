@@ -1,21 +1,15 @@
 .cover {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-    /* background-image: url(../../images/__cover-background.jpg); */
-    margin: 0px 48px 92px;
-    /* background-size: cover; */
-
+    grid-template-columns: repeat(3,minmax(33%,1fr));
+    /* margin: 0px 48px 92px; */
+    margin-bottom: 92px;
 }
 
 
-/* margin: 0px 48px 92px;
-    background-image: url(../../images/__cover-background.jpg);
-    background-size: cover;
-    width: 100%;
-    padding: 0px 312px 0px;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    max-width: 1184px; */
+@media screen and (max-width: 1024px) {
+    .cover {
+        height: 640px;
+        
+    }
+} 

@@ -3,11 +3,13 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
-    max-height: 660px;
-    max-width: 984px;
     grid-column-gap: 40px;
-    margin-bottom: 80px;
+    margin: 0px 148px 80px;
 }
-.place:last-child {
-    margin-bottom: 92px;
+
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin: 0px 48px 80px;
+    }
 }
