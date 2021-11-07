@@ -1,21 +1,40 @@
 .cover {
-    position: relative;
+    /* position: relative; */
     display: grid;
-    grid-template-columns: repeat(3,minmax(33%,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(90%,1fr));
     /* margin: 0px 48px 92px; */
     margin-bottom: 92px;
+    margin-right: 48px;
+    margin-left: 48px;
+    grid-template-areas:'photo';
+    align-items: center;
+    justify-content: center;
 }
-
 
 @media screen and (max-width: 1024px) {
     .cover {
-        height: 640px;
+        margin-right: 0px;
+        margin-left: 0px;
         
     }
 } 
+
 @media screen and (max-width: 768px) {
     .cover {
-        height: 480px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 90px;
+        margin-bottom: 88px;
         
     }
 } 
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 66px;
+        margin-bottom: 64px;
+        
+    }
+}  

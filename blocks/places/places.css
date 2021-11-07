@@ -2,11 +2,18 @@
     margin: 0;
     padding: 0;
     margin: 92px 0px;
-    width: 100%; 
+    /* width: 100%;  */
+    /* display: grid; */
 }
 
 @media screen and (max-width: 768px) {
     .places {
         margin: 88px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin: 64px 0px 66px;
     }
 }

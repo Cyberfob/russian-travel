@@ -1,4 +1,5 @@
 .footer__copyright {
+    -webkit-font-smoothing: antialiased;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
