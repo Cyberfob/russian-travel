@@ -5,27 +5,14 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    /* margin: 32px auto 245px ; */
     margin: 32px auto 0px;
     width: 360px;
     height: 66px;
-    /* grid-column: 1/-1; */
-    /* grid-area:photo; */
     z-index: 2;
     align-self: end;
     justify-self: center;
 } 
 
-/* @media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        margin: 32px auto 195px ;
-    }
-}
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        margin: 32px auto 115px ;
-    }
-} */
 @media screen and (max-width: 535px) {
     .cover__subtitle {
         font-size: 14px;

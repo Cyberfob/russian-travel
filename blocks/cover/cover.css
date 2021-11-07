@@ -1,8 +1,6 @@
 .cover {
-    /* position: relative; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(90%,1fr));
-    /* margin: 0px 48px 92px; */
     margin-bottom: 92px;
     margin-right: 48px;
     margin-left: 48px;

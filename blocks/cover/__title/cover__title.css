@@ -5,30 +5,15 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    /* margin: 245px auto 0px; */
     margin: 0px auto;
     width: 560px;
     height: 152px;
     text-decoration: none;
     color: #FFFFFF;
-    /* grid-column: 1/1; */
     z-index: 2;
-    /* grid-area: photo; */
     align-self: start;
     justify-self: center;
-    
 }
-
-/* @media screen and (max-width: 1024px) {
-    .cover__title {
-        margin: 195px auto 0px ;
-    }
-}
-@media screen and (max-width: 768px) {
-    .cover__title {
-        margin: 115px auto 0px ;
-    }
-} */
 
 @media screen and (max-width: 535px) {
     .cover__title {

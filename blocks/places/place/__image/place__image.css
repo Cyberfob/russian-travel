@@ -1,26 +1,9 @@
 .place__image {
     margin: 0;
     padding: 0;
-    /* grid-row: 2/4;
-    grid-column: 1/2; */
     width: 100%;
-    
 }
 
-/* @media screen and (max-width: 1024px) {
-    .place__image {
-        width: 440px;
-        height: 440px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__image {
-        width: 340px;
-        height: 340px;
-    }
-}
-*/
 @media screen and (max-width: 320px) {
     .place__image {
         width: 320px;
