@@ -13,14 +13,11 @@
     .cover {
         margin-right: 0px;
         margin-left: 0px;
-        
     }
 } 
 
 @media screen and (max-width: 768px) {
     .cover {
-        margin-right: 0px;
-        margin-left: 0px;
         margin-top: 90px;
         margin-bottom: 88px;
         
@@ -29,10 +26,7 @@
 
 @media screen and (max-width: 320px) {
     .cover {
-        margin-right: 0px;
-        margin-left: 0px;
         margin-top: 66px;
         margin-bottom: 64px;
-        
     }
 }  

@@ -13,16 +13,15 @@
     justify-self: center;
 } 
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 525px) {
     .cover__subtitle {
+        
         font-size: 14px;
         line-height: 16px;
-        width: 288px;
-        height: 48px;
+        max-width: 288px;
+        max-height: 48px;
     }
 }
-@media screen and (max-width: 320px) {
-    .cover__subtitle {
-        margin: 16px auto 0px;
-    }
-}
+
+
+

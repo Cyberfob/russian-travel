@@ -1,23 +1,22 @@
 .cover__background {
     opacity: 0.8;
-    grid-area:photo;
+    grid-area: photo;
     box-sizing: border-box;
     width: 100%;
-    
+}
+
+
+
+.overlay {
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    grid-area: photo;
     
 }
 
-.cover__background:hover {
+.overlay:hover + .cover__background {
     opacity: 0.3;
-}
 
-@media screen and (max-width: 1024px) {
-    .cover__background {
-        margin: 0px;
-    }
 }
-@media screen and (max-width: 768px) {
-    .cover__background {
-        margin: 0px;
-    }
-} 
