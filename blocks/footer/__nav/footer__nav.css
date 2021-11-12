@@ -4,8 +4,7 @@
 
 @media screen and (max-width: 320px) {
     .footer__nav {
-        display:inline-grid;
-        grid-template-rows: repeat(auto-fit, minmax(1fr,auto));
-        row-gap: 32px;
+        display: flex;
+        flex-direction: column;
     }
 } 

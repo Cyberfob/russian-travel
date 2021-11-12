@@ -1,9 +1,0 @@
-.place__text_up {
-    padding-bottom: 26px;
-}
-
-@media screen and (max-width: 768px) {
-    .place__text_up {
-        padding-bottom: 25px;
-    }
-}

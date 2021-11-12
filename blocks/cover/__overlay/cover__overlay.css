@@ -1,0 +1,26 @@
+.cover__overlay {
+    z-index: 1;
+    width: 100%;
+    /* min-height: 740px; */
+    height: 100%;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.cover__overlay:hover {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+} 
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        /* max-height: 480px; */
+        
+    }
+    
+}

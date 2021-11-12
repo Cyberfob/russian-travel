@@ -2,7 +2,7 @@
     -webkit-font-smoothing: antialiased;
     background: #2A2C2F;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     max-width: 1280px;
     margin: 0px;
     padding-top: 28px;
@@ -12,5 +12,10 @@
     .content {
         margin: 0px auto;
     }
-    
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+        padding-top: 16px;
+    }
 }

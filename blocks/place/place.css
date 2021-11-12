@@ -1,5 +1,5 @@
 .place {
-    margin: 0px 148px 80px;
+    margin: 0px auto 80px 148px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
@@ -11,27 +11,27 @@
     .place {
         margin: 0px 48px 80px;
         grid-column-gap: 32px;
-        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+        /* grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); */
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+        /* grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); */
         margin: 0px 24px 73px;
         grid-column-gap: 28px;
     }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .place {
         grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
         margin: 0px 24px 73px;
         grid-column-gap: 28px;
     }
-}
+} */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
     .place {
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         margin: 0px 0px 50px;
