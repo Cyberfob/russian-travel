@@ -12,28 +12,29 @@
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        margin: 0px auto 195px;
+        margin:  32px auto 195px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        margin: 0px auto 115px;
+        margin:  32px auto 115px;
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 650px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
         align-self: center;
+        margin-top: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        margin: 0px auto 33px;
+        margin: 16px auto 33px;
     }
 }
 

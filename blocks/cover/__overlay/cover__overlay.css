@@ -8,10 +8,5 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(42, 44, 47, 0.3);
 }
-
-.cover__overlay:hover {
-    content: "";
-    background: rgba(0, 0, 0, 0.7);
-} 

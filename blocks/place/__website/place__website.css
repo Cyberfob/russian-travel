@@ -5,8 +5,14 @@
     align-self: flex-end;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 650px) {
     .place__website {
         margin: 0px 16px 0px 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        padding-bottom: 32px;
     }
 }
