@@ -1,10 +1,11 @@
 .footer__nav {
     margin: 0;
+    display: flex;
+    align-content: flex-start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 568px) {
     .footer__nav {
-        display: flex;
         flex-direction: column;
     }
 } 

@@ -6,8 +6,11 @@
     padding-bottom: 26px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     .place__text:first-child {
         padding-bottom: 25px;
+    }
+    .place__text:last-child {
+        padding: 0;
     }
 }

@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .place__title_min-content {
+        width: min-content;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .place__title_min-content {
+        width: max-content;
+    }
+}
